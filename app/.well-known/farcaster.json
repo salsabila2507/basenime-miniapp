@@ -1,0 +1,33 @@
+{
+  "name": "basenime",
+  "icon": "https://YOUR_DOMAIN_HERE/icon.png",
+  "version": "1.0.0",
+  "splashScreenImageUrl": "https://YOUR_DOMAIN_HERE/splash.png",
+  "splashBackgroundColor": "#000000",
+  "description": "Mint basenime NFTs on Base Sepolia",
+  "url": "https://YOUR_DOMAIN_HERE",
+  "splashImageUrl": "https://YOUR_DOMAIN_HERE/splash.png",
+  "tags": ["nft", "mint", "base"],
+  "primaryCategory": "lifestyle"
+}
+```
+
+**Commit**.
+
+---
+
+Sekarang buat `.env.local` (untuk API keys)
+
+**Add file** → **Create new file**
+
+Ketik path: `.env.local`
+
+Paste:
+```
+NEXT_PUBLIC_URL=http://localhost:3000
+NEXT_PUBLIC_CHAIN_ID=84532
+NEXT_PUBLIC_RPC_URL=https://sepolia.base.org
+
+# Coinbase API credentials
+COINBASE_API_KEY=your_api_key_here
+COINBASE_API_SECRET=your_api_secret_here
